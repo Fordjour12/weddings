@@ -1,0 +1,5 @@
+const btn = document.querySelector(element);
+
+btn.addEventListener("click", function () {
+  document.body.classList.toggle(event named);
+});

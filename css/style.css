@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body.dark-mode {
+    color: #eee;
+    background: #121212;
+}
+
+body.dark-mode a {
+    color: #fff;
+}
+
+img {
+    width: 22px;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.toggle {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+}
+
+header a.logo h1.logo-i {
+    padding-bottom: .7em;
+    font-family: 'Recursive', sans-serif;
+}
+
+nav.navi {
+    margin: 0;
+    padding-bottom: 1em;
+    font-family: 'Dancing Script', cursive;
+}
+
+nav.navi ul.nav-list {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+nav.navi ul.nav-list li a.nav-links {
+    color: darkgray;
+    font-size: 1.1rem;
+}
+
+main {
+    margin: 0;
+    padding: 0 0 1em 0;
+    font-family: 'Recursive', sans-serif;
+}
+
+main section.bg-img {
+    background-image: url("/weddings/assert/img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+main section.s-info h1.info-main,
+main section.s-info h2.sub-info {
+    color: darkgray;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Recursive', sans-serif;
+}
+
+strong {
+    font-style: italic;
+    font-family: 'Lora';
+}
+
+h4 {
+    padding: .7em 0;
+    text-transform: capitalize;
+}
+
+main section.s-info h1.info-main {
+    font-size: 2rem;
+    font-weight: 500;
+    padding: .5em 0;
+}
+
+main section.s-info h2.sub-info {
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding-bottom: .3em;
+}
+
+main section.s-info p.bdy-info {
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    background-color: darkgray;
+}
+
+
+footer a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+}
+
+footer p {
+    padding-top: .3em;
+}
+
+footer a.logo h1.logo-i {
+    padding-bottom: .5em;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: space-around;
+}
